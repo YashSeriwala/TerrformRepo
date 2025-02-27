@@ -9,3 +9,7 @@
 # output "test" {
 #   value = aws_iam_policy.ssm_policy.arn
 # }
+
+output "instance_name" {
+  value = aws_instance.ec2_module
+}

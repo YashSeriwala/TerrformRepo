@@ -17,3 +17,10 @@ variable "private_cidr_block" {
 variable "availability_zone" {
   type = list(string)
 }
+variable "load_balancer_type" {
+  type = string
+}
+
+variable "internal" {
+  type = bool
+}

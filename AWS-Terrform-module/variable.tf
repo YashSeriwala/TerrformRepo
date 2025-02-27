@@ -52,3 +52,19 @@ variable "instance" {
 # variable "subnet_id" {
 
 # }
+
+
+
+variable "load_balancer_type" {
+  type = string
+}
+
+variable "internal" {
+  type = bool
+}
+variable "name" {
+  type = string
+}
+# variable "subnets" {
+
+# }

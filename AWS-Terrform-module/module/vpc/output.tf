@@ -3,7 +3,10 @@
 # }
 
 output "public_subnet_id" {
-  value = aws_subnet.public_subnet
+  value = aws_subnet.public_subnet[0]
+}
+output "public_subnet_id_1" {
+  value = aws_subnet.public_subnet[1]
 }
 
 # output "subnet_id1"{
